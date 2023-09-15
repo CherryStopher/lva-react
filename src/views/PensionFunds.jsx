@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from "react";
 import styles from "./PensionFunds.module.css";
 import PensionFundCard from "../components/PensionFund/PensionFundCard";
+import { calculateMaxValue } from "../utils/utils";
 
 function PensionFunds({ funds }) {
   const [selectedFund, setSelectedFund] = useState(null);
   const [selectedMonth, setSelectedMonth] = useState(null);
+
+  const MAX_VALUE = calculateMaxValue(funds);
 
   const handleChangeFund = (event) => {
     setSelectedFund(event.target.value);
@@ -44,6 +47,7 @@ function PensionFunds({ funds }) {
               key={fundName}
               fundName={fundName}
               fund={funds[selectedMonth][fundName]}
+              maxValue={MAX_VALUE}
             />
           ))}
       </div>
