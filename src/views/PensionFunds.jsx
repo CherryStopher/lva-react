@@ -20,10 +20,12 @@ function PensionFunds({ funds }) {
   };
 
   useEffect(() => {
-    const firstMonth = Object.keys(funds)[0];
-    const firstFund = Object.keys(funds[firstMonth])[0];
+    const months = Object.keys(funds);
+    const lastMonth = months[months.length - 1];
 
-    setSelectedMonth(firstMonth);
+    const firstFund = Object.keys(funds[lastMonth])[0];
+
+    setSelectedMonth(lastMonth);
     setSelectedFund(firstFund);
   }, [funds]);
 
