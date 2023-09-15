@@ -54,6 +54,10 @@
 }
 
 @media (max-width: 768px) {
+
+  body {
+    overflow-x: hidden;
+  }
   .Navbar > .nav-items {
     position: absolute;
     top: 60px;
