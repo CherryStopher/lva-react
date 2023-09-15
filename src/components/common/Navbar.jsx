@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
+import lvaLogo from "../../assets/img/lva-icon.png";
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div className="Navbar">
       <span className="nav-logo">
-        <img src="../resources/lva-icon.png" alt="" />
+        <img className="img-logo" src={lvaLogo} alt="LVA Indices" />
         LVA
       </span>
       <div className={`nav-items ${isOpen && "open"}`}>

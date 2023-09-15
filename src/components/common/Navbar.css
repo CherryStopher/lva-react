@@ -11,7 +11,9 @@
   font-size: 21px;
   margin: 15px;
   color: #ffffff;
+  
 }
+
 
 .Navbar > .nav-items > a {
   color: #ffffff;
@@ -43,6 +45,12 @@
 
 .Navbar > .nav-toggle {
   display: none;
+}
+
+.img-logo {
+  width: 28px;
+  padding: 0 5px;
+  
 }
 
 @media (max-width: 768px) {
@@ -121,5 +129,6 @@
     transform: rotate(-45deg) translate(26px, 26px);
   }
 
+  
 
 }
