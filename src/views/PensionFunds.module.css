@@ -6,11 +6,6 @@
   text-align: center;
 }
 
-.desktopContainer{
-    display: flex;
-    flex-direction: column;
-}
-
 .desktopView{
     display: flex;
     flex-wrap: wrap;
@@ -22,48 +17,6 @@
   margin: 20px;
 }
 
-
- .desktopView .fund{
-    padding: 54px;
-    padding-top: 0;
- }
-
- .mobileView .fund{
-    padding: 20px;
-    padding-top: 0;
-    max-width: 426px;
- }
-
-.fund {
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    margin: 20px;
-    text-align: center;
-    min-width: 300px;
-  }
-
-.fundTitle{
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-  }
-
-
-.fundStat {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;  
-  }
-  
-.fundValue {
-  width: 40px;
-  }
-
-.fundStat p{
-    width: 60px;
-    text-align: left;
-}
-
 .mobileView{
     display: none;
 }
@@ -73,18 +26,6 @@
     justify-content: space-between;
     margin: 20px;
 }
-
-select {
-    width: 150px;
-    height: 30px;
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-    background: #3F4869;
-    color: white;
-}
-
 
 @media (max-width: 768px) {
     .mobileView {
