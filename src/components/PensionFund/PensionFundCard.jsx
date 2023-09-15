@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./PensionFunds.module.css";
-import ProgressBar from "./ProgressBar";
+import ProgressBar from "../common/ProgressBar";
 
 const MAX_VALUE = 2; // Ajusta esto según el valor máximo
 

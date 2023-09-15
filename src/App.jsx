@@ -1,6 +1,6 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import PensionFunds from "./components/PensionFunds";
+import Navbar from "./components/common/Navbar";
+import PensionFunds from "./views/PensionFunds";
 import funds from "./data/funds.json";
 
 function App() {

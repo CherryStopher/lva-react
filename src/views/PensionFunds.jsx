@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "./PensionFunds.module.css";
-import PensionFundCard from "./PensionFundCard";
+import PensionFundCard from "../components/PensionFund/PensionFundCard";
 
 function PensionFunds({ funds }) {
   const [selectedFund, setSelectedFund] = useState(null);
@@ -26,7 +26,7 @@ function PensionFunds({ funds }) {
     <div className={styles.pensionFunds}>
       <h2>Rentabilidad Real de los fondos de pensiones</h2>
 
-      {/* Desktop view */}
+      {/* DESKTOP VIEW */}
       <div className={styles.desktopView}>
         <div className={styles.desktopSelect}>
           <select onChange={handleChangeMonth} value={selectedMonth || ""}>
