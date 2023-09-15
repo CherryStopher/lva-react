@@ -1,8 +1,8 @@
 
   
   .progressContainer {
-    width: 100px; /* Ancho de la barra de progreso */
-    height: 24px; /* Altura de la barra de progreso */
+    width: 100px;
+    height: 24px; 
     background-color: #293458;
     margin-right: 0px;
     position: relative;
