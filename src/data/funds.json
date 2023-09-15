@@ -1,0 +1,192 @@
+{
+    "Mayo 2023": {
+        "Fondo A": {
+            "Capital": -1.05,
+            "Cuprum": 0.98,
+            "Habitat": -0.92,
+            "Modelo": 1.15,
+            "Planvital": -0.98,
+            "Provida": 1.28,
+            "Uno": -1.20
+        },
+        "Fondo B": {
+            "Capital": 0.85,
+            "Cuprum": -0.78,
+            "Habitat": 1.00,
+            "Modelo": -0.80,
+            "Planvital": 0.85,
+            "Provida": -1.06,
+            "Uno": 0.90
+        },
+        "Fondo C": {
+            "Capital": -1.07,
+            "Cuprum": 1.06,
+            "Habitat": -0.95,
+            "Modelo": -0.99,
+            "Planvital": 1.08,
+            "Provida": -1.29,
+            "Uno": 1.15
+        },
+        "Fondo D": {
+            "Capital": -1.51,
+            "Cuprum": 1.37,
+            "Habitat": -1.45,
+            "Modelo": 1.32,
+            "Planvital": -1.40,
+            "Provida": 1.68,
+            "Uno": -1.50
+        },
+        "Fondo E": {
+            "Capital": -1.48,
+            "Cuprum": 1.41,
+            "Habitat": -1.46,
+            "Modelo": 1.28,
+            "Planvital": -1.41,
+            "Provida": 1.71,
+            "Uno": -1.46
+        }
+    },
+    "Junio 2023": {
+        "Fondo A": {
+            "Capital": -0.98,
+            "Cuprum": 1.05,
+            "Habitat": -0.94,
+            "Modelo": 1.12,
+            "Planvital": -0.99,
+            "Provida": 1.25,
+            "Uno": -1.18
+        },
+        "Fondo B": {
+            "Capital": 0.80,
+            "Cuprum": -0.75,
+            "Habitat": 0.90,
+            "Modelo": -0.76,
+            "Planvital": 0.80,
+            "Provida": -1.02,
+            "Uno": 0.88
+        },
+        "Fondo C": {
+            "Capital": -1.02,
+            "Cuprum": 1.03,
+            "Habitat": -0.98,
+            "Modelo": -0.95,
+            "Planvital": 1.06,
+            "Provida": -1.28,
+            "Uno": 1.17
+        },
+        "Fondo D": {
+            "Capital": -1.45,
+            "Cuprum": 1.33,
+            "Habitat": -1.40,
+            "Modelo": 1.27,
+            "Planvital": -1.35,
+            "Provida": 1.63,
+            "Uno": -1.45
+        },
+        "Fondo E": {
+            "Capital": -1.42,
+            "Cuprum": 1.38,
+            "Habitat": -1.43,
+            "Modelo": 1.25,
+            "Planvital": -1.38,
+            "Provida": 1.68,
+            "Uno": -1.43
+        }
+    },
+    "Julio 2023": {
+        "Fondo A": {
+            "Capital": -1.10,
+            "Cuprum": 0.97,
+            "Habitat": -0.91,
+            "Modelo": 1.18,
+            "Planvital": -0.97,
+            "Provida": 1.30,
+            "Uno": -1.22
+        },
+        "Fondo B": {
+            "Capital": 0.88,
+            "Cuprum": -0.79,
+            "Habitat": 0.95,
+            "Modelo": -0.77,
+            "Planvital": 0.87,
+            "Provida": -1.04,
+            "Uno": 0.91
+        },
+        "Fondo C": {
+            "Capital": -1.05,
+            "Cuprum": 1.08,
+            "Habitat": -0.96,
+            "Modelo": -0.98,
+            "Planvital": 1.10,
+            "Provida": -1.31,
+            "Uno": 1.20
+        },
+        "Fondo D": {
+            "Capital": -1.50,
+            "Cuprum": 1.35,
+            "Habitat": -1.42,
+            "Modelo": 1.30,
+            "Planvital": -1.38,
+            "Provida": 1.65,
+            "Uno": -1.48
+        },
+        "Fondo E": {
+            "Capital": -1.47,
+            "Cuprum": 1.40,
+            "Habitat": -1.45,
+            "Modelo": 1.26,
+            "Planvital": -1.40,
+            "Provida": 1.70,
+            "Uno": -1.45
+        }
+    },
+    "Agosto 2023": {
+        "Fondo A": {
+            "Capital": -1.11,
+            "Cuprum": -0.96,
+            "Habitat": -0.96,
+            "Modelo": -1.08,
+            "Planvital": -1.09,
+            "Provida": -1.26,
+            "Uno": -1.19
+        },
+        "Fondo B": {
+            "Capital": -0.85,
+            "Cuprum": -0.78,
+            "Habitat": -0.84,
+            "Modelo": -0.80,
+            "Planvital": -0.85,
+            "Provida": -1.06,
+            "Uno": -0.93
+        },
+        "Fondo C": {
+            "Capital": -1.07,
+            "Cuprum": -1.06,
+            "Habitat": -1.05,
+            "Modelo": -0.99,
+            "Planvital": -1.08,
+            "Provida": -1.29,
+            "Uno": -1.15
+        },
+        "Fondo D": {
+            "Capital": -1.51,
+            "Cuprum": -1.37,
+            "Habitat": -1.45,
+            "Modelo": -1.32,
+            "Planvital": -1.40,
+            "Provida": -1.68,
+            "Uno": -1.50
+        },
+        "Fondo E": {
+            "Capital": -1.48,
+            "Cuprum": -1.41,
+            "Habitat": -1.46,
+            "Modelo": -1.28,
+            "Planvital": -1.41,
+            "Provida": -1.71,
+            "Uno": -1.46
+        }
+    }
+}
+
+
