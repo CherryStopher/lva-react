@@ -1,18 +1,17 @@
 import React from "react";
 
-function FundSelector({ handleChangeFund, month, funds, selectedFund }) {
+function MonthSelector({ handleChangeMonth, month, funds }) {
   return (
     <div>
-      <select onChange={handleChangeFund} value={selectedFund || ""}>
-        {month &&
-          Object.keys(funds[month]).map((fundName) => (
-            <option key={fundName} value={fundName}>
-              {fundName}
-            </option>
-          ))}
+      <select onChange={handleChangeMonth} value={month || ""}>
+        {Object.keys(funds).map((month) => (
+          <option key={month} value={month}>
+            {month}
+          </option>
+        ))}
       </select>
     </div>
   );
 }
 
-export default FundSelector;
+export default MonthSelector;
